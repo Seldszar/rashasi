@@ -1,0 +1,51 @@
+{
+  "name": "rashasi",
+  "version": "0.1.0",
+  "description": "A symbol of unity between unrelenting aggression and unwavering defense.",
+  "author": "Alexandre Breteau <contact@seldszar.fr>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "homepage": "https://github.com/seldszar/rashasi#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seldszar/rashasi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seldszar/rashasi/issues"
+  },
+  "files": [
+    "lib",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "filesystem",
+    "store"
+  ],
+  "scripts": {
+    "lint": "eslint --format codeframe .",
+    "lint-staged": "lint-staged",
+    "precommit": "npm run lint-staged",
+    "release": "semantic-release"
+  },
+  "dependencies": {
+    "event-kit": "^2.4.0",
+    "lodash": "^4.17.5"
+  },
+  "peerDependencies": {
+    "lesion": "^0.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.17.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.0",
+    "prettier": "^1.11.1",
+    "semantic-release": "^12.4.1"
+  },
+  "lint-staged": {
+    "*.js": "eslint --format codeframe"
+  }
+}
