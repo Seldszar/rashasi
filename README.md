@@ -1,5 +1,7 @@
 # Rashasi
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Seldszar/rashasi.svg)](https://greenkeeper.io/)
+
 > A symbol of unity between unrelenting aggression and unwavering defense.
 
 Rashasi is a wrapper for Lesion for managing local fragments.
